@@ -1,0 +1,143 @@
+#sil-container {
+    width: 320px;    
+    margin: auto;
+    color: #3c434a;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+#sil-container form {   
+    padding: 26px 24px;
+    font-weight: 400;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .04);
+}
+
+#sil-container form p {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+#sil-container .login-remember {
+    float: left;
+}
+
+#sil-container label {
+    font-size: 14px;
+    line-height: 1.5;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+#sil-container form .input {
+    font-family: inherit;
+    font-size: 24px;
+    line-height: 1.33333333;
+    border-width: .0625rem;
+    padding: .1875rem .3125rem;
+    margin: 0 6px 16px 0;
+    min-height: 33px;
+    max-height: none;
+    box-shadow: 0 0 0 transparent;
+    border-radius: 4px;
+    border: 1px solid #8c8f94;
+    background-color: #fff;
+    color: #2c3338;
+}
+
+#sil-container form .input:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+    outline: 2px solid transparent;
+}
+
+#sil-container input[type=checkbox], input[type=radio] {
+    height: 1.1rem;
+    width: 1.1rem;
+    border: 1px solid #8c8f94;
+    border-radius: 4px;
+    background: #fff;
+    color: #50575e;
+    clear: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    margin: -.25rem .25rem 0 0;
+    outline: 0;
+    padding: 0 !important;
+    text-align: center;
+    vertical-align: middle;
+    min-width: 1rem;
+    -webkit-appearance: none;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    transition: .05s border-color ease-in-out;
+}
+
+#sil-container input[type=checkbox]:checked:before {    
+    content: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27%3E%3Cpath%20d%3D%27M14.83%204.89l1.34.94-5.81%208.38H9.02L5.78%209.67l1.34-1.25%202.57%202.4z%27%20fill%3D%27%233582c4%27%2F%3E%3C%2Fsvg%3E");
+    display: block;
+    margin: -0.2rem;
+    margin-left: -4px;
+}
+
+#sil-container .button {
+    float: right;
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    display: inline-block;
+    margin: 0;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding: 0 12px;
+    line-height: 2.71428571;
+    font-size: 13px;
+    vertical-align: middle;
+    min-height: 32px;
+    margin-bottom: 4px;
+    line-height: inherit;
+    font-weight: normal;
+}
+
+#sil-container .button:hover {
+    background: #135e96;
+    border-color: #135e96;
+    color: #fff;
+}
+
+#sil-container .login-register-link {
+    font-size: 13px;
+    padding: 0 24px;
+    margin: 12px 0 0;
+    color: #3c434a;
+}
+
+#sil-container .login-register-link a {
+    color: #50575e;
+    text-decoration: none;
+}
+
+#sil-container .login-register-link a:hover {
+    color: #135e96;
+}
+
+#sil-container .login-error {
+    font-size:13px;
+    border-left: 4px solid #d63638;
+    padding: 12px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    word-wrap: break-word;
+    line-height: normal;
+}
